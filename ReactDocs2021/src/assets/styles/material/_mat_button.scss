@@ -1,0 +1,13 @@
+/* Material Button style overwrite here */
+
+button {
+	font-family: $font-family !important;
+
+	&:disabled:hover {
+		cursor: not-allowed;
+	}
+}
+
+button.MuiButton-root { 
+    text-transform: none;
+}

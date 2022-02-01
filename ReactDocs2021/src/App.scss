@@ -1,0 +1,44 @@
+.App-logo {
+    width: 40px;
+}
+
+.document-container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 24px;
+    margin: 24px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+    .title {
+        font-size: 18px;
+        color: #266EA2;
+        margin: 0 0 1rem;
+
+        &::before,
+        &::after {
+            content: " ~~~ ";
+        }
+    }
+
+    .heading {
+        font-size: 15px;
+        margin: 8px 0 12px;
+        color: #9A9FA4;
+
+        &::before,
+        &::after {
+            content: " ### ";
+            color: #9A9FA4;
+        }
+    }
+
+    .m-b-8 {
+        margin-bottom: .5rem;
+    }
+
+    .display-table {
+        display: table;
+    }
+}

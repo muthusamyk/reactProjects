@@ -1,0 +1,23 @@
+/* ==========================================================================
+   Calibraint UI Settings
+   ========================================================================== */
+@import '../src/assets/styles/includes';
+
+/* ==========================================================================
+      Calibraint Material Theme
+      ========================================================================== */
+@import '../src/assets/styles/material/react-material';
+
+
+* {
+  font-family: $font-family;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: $font-family;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f4f4f4;
+}

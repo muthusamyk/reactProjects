@@ -1,0 +1,49 @@
+@import '../includes';
+
+/* Mat form field Input text box style overwrite here */
+
+.MuiFormControl-root {
+    width: 100%;
+    margin: 0;
+    min-width: unset;
+
+    &.MuiTextField-root {
+        width: 100%;
+
+        .MuiOutlinedInput-root {
+            border-radius: 2px;
+            font-family: 'Nunito Sans', sans-serif;
+
+            .MuiOutlinedInput-input {
+                padding: 10px 12px;
+                height: 20px;
+                font-size: 14px;
+                line-height: 20px;
+                font-weight: 700;
+                color: #202a36;
+            }
+
+            fieldset {
+                border-color: #dfe3eb;
+            }
+
+            &:hover fieldset {
+                border-color: #dfe3eb;
+            }
+
+            &.Mui-focused fieldset {
+                border-width: 1px;
+                border-color: #005592;
+            }
+
+            &.Mui-error fieldset {
+                border-color: #fa3e3e;
+            }
+        }
+    }
+
+    .MuiInputLabel-root {
+        line-height: 20px;
+        top: -7px;
+    }
+}
